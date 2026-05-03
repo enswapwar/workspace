@@ -10,7 +10,7 @@ use {
     smashline::{*, Priority::*}
 };
 
-unsafe extern "C" fn dedede_frame(fighter: &mut L2CFighterCommon) {
+unsafe extern "C" fn kirby_frame(fighter: &mut L2CFighterCommon) {
     unsafe {
         let currentSize = PostureModule::scale(fighter.module_accessor);
         
